@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
     // fetch data from serwer odpowiedz bota
 
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://aychcodex.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
